@@ -1,0 +1,19 @@
+.is-blue {
+  background-color: #566be8;
+}
+.is-light-blue {
+  background-color: #a4b3f4;
+}
+.is-orange {
+  background-color: #f9912b;
+}
+.is-light-orange {
+  background-color: #f9912b;
+}
+
+.is-blue .title,
+.is-blue .subtitle,
+.is-blue .icon {
+  color: #fff;
+}
+
