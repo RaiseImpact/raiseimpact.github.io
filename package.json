@@ -5,9 +5,9 @@
   "repository": "git@github.com:pauldariye/raiseweb.git",
   "author": "Paul Dariye <paul.dariye@gmail.com>",
   "scripts": {
-    "dev": "NODE_ENV=development parcel src/index.html --out-dir app/",
+    "dev": "NODE_ENV=development parcel src/index.html --out-dir build/",
     "build":
-      "NODE_ENV=production parcel build src/index.html --out-dir app/ --public-url ./",
+      "NODE_ENV=production parcel build src/index.html --out-dir ./ --public-url ./",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d app"
   },
